@@ -1,1 +1,1 @@
-require File.join('omniauth', 'eachscape_oauth2')
+require File.join('omniauth', 'strategies', 'eachscape')

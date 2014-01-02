@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'omniauth-eachscape-oauth2/version'
+require 'omniauth/eachscape/version'
 
 Gem::Specification.new do |gem|
   gem.name          = 'omniauth-eachscape-oauth2'

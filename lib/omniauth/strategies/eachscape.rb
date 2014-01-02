@@ -10,7 +10,7 @@ module OmniAuth
       option :name, 'eachscape'
 
       option :client_options, {
-          site: ENV['EACHSCAPE_DOMAIN'] || '/builder.eachscape.com',
+          site: ENV['EACHSCAPE_HOST'] || 'builder.eachscape.com',
           authorize_url: '/api/oauth2/authorize',
           token_url: '/api/oauth2/token',
       }
